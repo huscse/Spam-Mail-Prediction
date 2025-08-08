@@ -13,8 +13,8 @@ The workflow includes preprocessing the dataset, splitting into training/testing
 2. **Data Preprocessing**
 
    - Cleaning the text (removing stop words, punctuation, and numbers).
-   - Converting text into numerical form using techniques like TF-IDF or CountVectorizer.
-   - Handling missing values (if any).
+   - Converting text into numerical form using techniques like TF-IDF.
+   - Handling missing values.
 
 3. **Train-Test Split**
    Split the processed dataset into **training** and **testing** subsets to evaluate model performance.
