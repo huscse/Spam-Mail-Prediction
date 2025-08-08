@@ -52,29 +52,27 @@ The trained Logistic Regression model is evaluated using:
 
 ### Model Evaluation Report
 
-
-```
 # 📊 Classification Report
 
-This report summarizes the performance of the classification model, specifically detailing its ability to distinguish between "Ham" and "Spam" messages. The model was evaluated on a test set of 15 samples.
+This report summarizes the performance of the classification model. The model was evaluated on a test set of 15 samples, focusing on its ability to distinguish between "Ham" and "Spam" messages.
 
 ---
 
-## Detailed Metrics
+### Detailed Metrics
 
 | Class | Precision | Recall | F1-Score | Support |
 | :--- | :---: | :---: | :---: | :---: |
 | **Ham** | 0.64 | 1.00 | 0.78 | 7 |
 | **Spam** | 1.00 | 0.50 | 0.67 | 8 |
 
-* **Precision:** The ratio of correctly predicted positive observations to the total predicted positives. For **Spam**, a precision of 1.00 means all messages predicted as spam were, in fact, spam.
-* **Recall:** The ratio of correctly predicted positive observations to all observations in the actual class. For **Ham**, a recall of 1.00 means the model correctly identified all actual ham messages.
-* **F1-Score:** The weighted average of Precision and Recall. This metric is useful when seeking a balance between precision and recall, especially with uneven class distribution.
-* **Support:** The number of actual occurrences of the class in the specified dataset.
+* **Precision:** The percentage of positive predictions that were actually correct.
+* **Recall:** The percentage of actual positives that were correctly identified.
+* **F1-Score:** A measure that balances precision and recall.
+* **Support:** The number of occurrences of each class in the test set.
 
 ---
 
-## Overall Performance
+### Overall Performance
 
 | Metric | Score |
 | :--- | :---: |
@@ -82,10 +80,9 @@ This report summarizes the performance of the classification model, specifically
 | **Macro Average** | 0.72 |
 | **Weighted Average** | 0.72 |
 
-* **Accuracy:** The proportion of total predictions that were correct. The model correctly classified 73% of the messages.
-* **Macro Average:** The unweighted average of the scores for each class. It treats all classes equally.
-* **Weighted Average:** The average of the scores for each class, weighted by the number of samples from that class. This gives a more realistic view of the model's performance on the overall dataset.
-```
+* **Accuracy:** The percentage of total predictions that were correct.
+* **Macro Average:** The unweighted average of the metrics across all classes.
+* **Weighted Average:** The average of the metrics, weighted by the number of samples in each class.
 
 ---
 
