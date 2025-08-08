@@ -50,7 +50,6 @@ The trained Logistic Regression model is evaluated using:
 - **Recall**
 - **F1 Score**
 
-### Model Evaluation Report
 
 # 📊 Classification Report
 
