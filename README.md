@@ -50,6 +50,19 @@ The trained Logistic Regression model is evaluated using:
 - **Recall**
 - **F1 Score**
 
+### Model Evaluation Report
+
+          precision    recall  f1-score   support
+
+     Ham       0.64      1.00      0.78         7
+    Spam       1.00      0.50      0.67         8
+
+accuracy                           0.73        15
+
+macro avg      0.82      0.75      0.72        15
+weighted avg   0.83      0.73      0.72        15
+
+
 ---
 
 ## 📌 Future Improvements
@@ -62,4 +75,4 @@ The trained Logistic Regression model is evaluated using:
 
 ## 🖊️ Author
 
-- Husnain Khaliq – [GitHub](https://github.com/huscse)
+- Husnain Khaliq 
