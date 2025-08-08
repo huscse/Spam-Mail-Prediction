@@ -1,1 +1,66 @@
-# Spam-Mail-Prediction
+# 📧 Spam Mail Prediction using Logistic Regression
+
+This project predicts whether an incoming email is **Spam** or **Ham** (not spam) using a **Logistic Regression** model.
+The workflow includes preprocessing the dataset, splitting into training/testing sets, and training the model for accurate predictions.
+
+---
+
+## 🚀 Workflow
+
+1. **Mail Data**
+   Collect email datasets containing labeled examples of spam and ham messages.
+
+2. **Data Preprocessing**
+
+   * Cleaning the text (removing stop words, punctuation, and numbers).
+   * Converting text into numerical form using techniques like TF-IDF or CountVectorizer.
+   * Handling missing values (if any).
+
+3. **Train-Test Split**
+   Split the processed dataset into **training** and **testing** subsets to evaluate model performance.
+
+4. **Model Training**
+   Train a **Logistic Regression** model using the training dataset.
+
+5. **Prediction**
+
+   * Input: New email text.
+   * Output: **Spam** or **Ham**.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Language:** Python
+* **Libraries:**
+
+  * `pandas` – Data manipulation
+  * `numpy` – Numerical computations
+  * `scikit-learn` – Machine learning algorithms and preprocessing
+  * `matplotlib` / `seaborn` – Visualization
+
+---
+
+
+## 📊 Model Evaluation
+
+The trained Logistic Regression model is evaluated using:
+
+* **Accuracy**
+* **Precision**
+* **Recall**
+* **F1 Score**
+
+---
+
+## 📌 Future Improvements
+
+* Experiment with advanced models like **Naive Bayes** or **Random Forest**.
+* Implement real-time email scanning.
+* Create a web-based UI for user interaction.
+
+---
+
+## 🖊️ Author
+
+* Your Name – [GitHub](https://github.com/huscse)
