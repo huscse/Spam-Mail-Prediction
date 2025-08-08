@@ -12,9 +12,9 @@ The workflow includes preprocessing the dataset, splitting into training/testing
 
 2. **Data Preprocessing**
 
-   * Cleaning the text (removing stop words, punctuation, and numbers).
-   * Converting text into numerical form using techniques like TF-IDF or CountVectorizer.
-   * Handling missing values (if any).
+   - Cleaning the text (removing stop words, punctuation, and numbers).
+   - Converting text into numerical form using techniques like TF-IDF or CountVectorizer.
+   - Handling missing values (if any).
 
 3. **Train-Test Split**
    Split the processed dataset into **training** and **testing** subsets to evaluate model performance.
@@ -24,43 +24,42 @@ The workflow includes preprocessing the dataset, splitting into training/testing
 
 5. **Prediction**
 
-   * Input: New email text.
-   * Output: **Spam** or **Ham**.
+   - Input: New email text.
+   - Output: **Spam** or **Ham**.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Language:** Python
-* **Libraries:**
+- **Language:** Python
+- **Libraries:**
 
-  * `pandas` – Data manipulation
-  * `numpy` – Numerical computations
-  * `scikit-learn` – Machine learning algorithms and preprocessing
-  * `matplotlib` / `seaborn` – Visualization
+  - `pandas` – Data manipulation
+  - `numpy` – Numerical computations
+  - `scikit-learn` – Machine learning algorithms and preprocessing
+  - `matplotlib` / `seaborn` – Visualization
 
 ---
-
 
 ## 📊 Model Evaluation
 
 The trained Logistic Regression model is evaluated using:
 
-* **Accuracy**
-* **Precision**
-* **Recall**
-* **F1 Score**
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1 Score**
 
 ---
 
 ## 📌 Future Improvements
 
-* Experiment with advanced models like **Naive Bayes** or **Random Forest**.
-* Implement real-time email scanning.
-* Create a web-based UI for user interaction.
+- Experiment with advanced models like **Naive Bayes** or **Random Forest**.
+- Implement real-time email scanning.
+- Create a web-based UI for user interaction.
 
 ---
 
 ## 🖊️ Author
 
-* Your Name – [GitHub](https://github.com/huscse)
+- Husnain Khaliq – [GitHub](https://github.com/huscse)
